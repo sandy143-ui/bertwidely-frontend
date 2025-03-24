@@ -1,7 +1,8 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-import UserList from './pages/UserList';
-import CreateUser from './pages/CreateUser';
+import UserList from './pages/UserList.jsx'; // ✅
+import CreateUser from './pages/CreateUser.jsx'; // ✅
+
 
 function App() {
   return (
